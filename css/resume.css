@@ -1,0 +1,113 @@
+html,button,input,select,textarea{
+    color: #444444;
+}
+
+html{
+    font-size: 1em;
+    line-height: 1.4;
+    color: #000000;
+    background: #777777;
+}
+
+#wrapper{
+    max-width: 900px;
+    min-width: 320px;
+    background: #e1fae7;
+    margin: auto;
+    border: 3px solid #09ccd0;
+    padding: 10px;
+}
+
+header div img{
+    width : 200px;
+    height : 150px;
+    padding-top: 20px;
+    padding-right: 30px;
+    float: right;
+    border: 1px #ccc;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+dt::after {
+    content: ": ";
+}
+
+dl {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0
+}
+dt {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+dd {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+
+}
+.gra{
+    font-weight: bolder;
+}
+.smythe{
+    font-family: smythe, serif;
+    font-size: 20px;
+}
+p{
+    line-height: normal;
+}
+.skills{
+    line-height: normal;
+    margin-left: 10%;
+}
+hr
+{
+    width: 80%;
+    color: darkgrey;
+    height: 2px;
+}
+.loisirs{
+    text-align: center;
+    word-spacing: 30px;
+}
+
+h1{
+    font-family: lancelot, serif;
+}
+
+.fa {
+    width: 30px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left:15%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-github{
+    background: #b51e00;
+    color: white;
+}

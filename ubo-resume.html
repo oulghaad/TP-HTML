@@ -8,27 +8,35 @@
     <meta name="keywords" content="web,developer,resume">
     <meta name="author" content="Mon nom">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//use.edgefonts.net/lancelot.js"></script>
+    <script src="//use.edgefonts.net/smythe.js"></script>
+
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><
     ![endif]-->
 </head>
 <body>
-<header>
-    <h1> Adil Oulghard</h1>
-    <h2>Développeur Back-end</h2>
-    <img src="cv_img.jpg" alt="Profile" width="200" height="150">
-    <div>
-        <p><b>Adresse :</b> Res. Univ Kergoat, 2 Rue des Archives, Brest, France</p>
-        <p><b>Code Postale :</b> 29200</p>
-        <p><b>Date de Naissance :</b> 03/09/1994</p>
-        <p><b>Email :</b> adil.oulghard@gmail.com</p>
-        <p><b>Nationalité :</b> Marocaine</p>
-        <p><b>Twitter :</b> adil.oulghard</p>
-
-    </div>
-</header>
 <div id="wrapper">
-
+    <header>
+        <div>
+            <img src="cv_img.jpg" alt="Profile">
+        </div>
+        <div>
+            <h1> Adil Oulghard</h1>
+            <h2>Développeur Back-end</h2>
+        </div>
+        <section style="line-height: normal">
+        <b>Adresse :</b> Res. Univ Kergoat, 2 Rue des Archives, Brest, France <br/>
+            <b>Code Postale :</b> 29200<br/>
+            <b>Date de Naissance :</b> 03/09/1994<br/>
+            <b>Email :</b> <a href="#">adil.oulghard@gmail.com</a><br/>
+            <b>Nationalité :</b> Marocaine<br/>
+            <b>Twitter :</b> adil.oulghard<br/>
+        </section>
+    </header>
+<hr/>
     <article>
         <div>
             <h1>Presentation</h1>
@@ -36,132 +44,142 @@
         </div>
     </article>
     <article>
-            <h1>Competences</h1>
-            <dl>
-                <dt>
-                    DEVELOPMENT
-                </dt>
-                <dd>
-                    <ul>
-                        <li>
-                            Java / JEE development.
-                        </li>
-                        <li> Mobile applications development (Android).</li>
-                        <li> Web development(HTML5 , PHP, Bootstrap, Angular).</li>
-                    </ul>
-                </dd>
-                <dt>
-                    Test
-                </dt>
-                <dd>
-                    <ul>
-                        <li>
-                            Automation: Design, develop and script test cases.
-                        </li>
-                        <li> Bug tracking: anomalies analysis, qualification, reporting and tracking.</li>
-                        <li> Reporting: generate, Analyze and deliver reports of the test campaigns.</li>
-                    </ul>
-                </dd>
-                <dt>
-                    Autres
-                </dt>
-                <dd>
-                    <ul>
-                        <li>
-                            Consuming and providing REST API’s using Java .
-                        </li>
-                        <li> Industrialization of automated tests execution using Jenkins.</li>
-                        <li> Managing Android apps with Firebase API.</li>
-                        <li>Send/Consume databases request/result (JDBC API) using java.</li>
-                    </ul>
-                </dd>
-            </dl>
+        <h1>Competences</h1>
+        <dl class="skills">
+            <dt class="gra">
+                DEVELOPMENT
+            </dt>
+            <dd>
+                <p>
+                     - Java / JEE development.<br/>
+                     -Mobile applications development (Android).<br/>
+                     -Web development(HTML5 , PHP, Bootstrap, Angular).
+                </p>
+            </dd>
+            <dt class="gra">
+                Test
+            </dt>
+            <dd>
+                <p>
+                    - Automation: Design, develop and script test cases. <br/>
+                    - Bug tracking: anomalies analysis, qualification,<br/> reporting and tracking.<br/>
+                    - Reporting: generate, Analyze and deliver reports <br/>of the test campaigns.
+                </p>
+            </dd>
+            <dt class="gra">
+                Autres
+            </dt>
+            <dd>
+                <p>
+                       - Consuming and providing REST API’s using Java .<br/>
+                    - Industrialization of automated tests execution using <br/> Jenkins.<br/>
+                    - Managing Android apps with Firebase API.<br/>
+                    - Send/Consume databases request/result (JDBC API) <br/> using java.
+                </p>
+            </dd>
+        </dl>
     </article>
+    <hr/>
     <article>
-            <h1>Formation</h1>
-            <dl>
-                <dt>
-                    2019-Ongoing
-                </dt>
-                <dd>
-                    <p>Université de Bretagne Occidentale</p>
-                    <p>Master 2 DOSI</p>
-                </dd>
-            </dl>
-            <dl>
-                <dt>
-                    2015-2017
-                </dt>
-                <dd>
-                    <p>Mohamed 5 University, science faculty, Rabat, MA</p>
-                    <p>Master degree in computer science</p>
-                </dd>
-            </dl>
-            <dl>
-                <dt>
-                    2012-2015
-                </dt>
-                <dd>
-                    <p>Mohamed 5 University, science faculty, Rabat, MA</p>
-                    <p>Master degree in computer science</p>
-                </dd>
-            </dl>
-            <dl>
-                <dt>
-                    2010-2012
-                </dt>
-                <dd>
-                    <p>Abdellah Guennoun High School, Rabat, MA</p>
-                    <p>High-school degree</p>
-                </dd>
-            </dl>
+        <h1>Formation</h1>
+        <dl class="skills">
+            <dt class="smythe">
+                2019-Ongoing
+            </dt>
+            <dd>
+                <p> <span class="gra">Master 2 DOSI </span> <br/>
+                Université de Bretagne Occidentale, Brest, FR</p>
+            </dd>
+
+            <dt class="smythe">
+                2015-2017
+            </dt>
+            <dd>
+                <p> <span class="gra">Master en Informatique et Télécommunications</span> <br/>
+                Univerité Mohammed V, Rabat, MA</p>
+            </dd>
+
+            <dt class="smythe">
+                2012-2015
+            </dt>
+            <dd>
+                <p> <span class="gra">Master degree in computer science </span> <br/>
+                Univerité Mohammed V, Rabat, MA</p>
+            </dd>
+            <dt class="smythe">
+                2010-2012
+            </dt>
+            <dd>
+                <p> <span class="gra">Baccalauréat</span> <br/>
+                Abdellah Guennoun High School, Rabat, MA</p>
+            </dd>
+        </dl>
 
     </article>
-     <article>
-            <h1>Langues</h1>
-            <dl>
-                <dt>
-                    Arabe
-                </dt>
-                <dd>
-                    Courant
-                </dd>
-            </dl>
-            <dl>
-                <dt>
-                    Français
-                </dt>
-                <dd>
-                    Professionnelle
-                </dd>
-            </dl>
-            <dl>
-                <dt>
-                    Anglais
-                </dt>
-                <dd>
-                    Professionnelle
-                </dd>
-            </dl>
-     </article>
+    <hr/>
     <article>
-            <h1>Hobbies</h1>
-            <dl>
-                <dt>
-                    Natation
-                </dt>
-                <dt>
-                    Musique
-                </dt>
-                <dt>
-                    Voyager
-                </dt>
-            </dl>
+        <h1>Experience professionnelle</h1>
+        <dl class="skills">
+            <dt class="smythe">
+                Février 2015 - Juillet 2015 <sub>(PFE)</sub>
+            </dt>
+            <dd>
+                <p class="gra">Application Web de gestion des comptes bancaires</p>
+                <blockquote>- Concevoir, développer une application Web <br/> utilisant JEE pour gérer les comptes bancaires,<br/> les employés,
+                    types de comptes (courants, épargne) <br/>et diverses opérations bancaires.<br/>
+                    - Tests d'automatisation: concevoir, développer et consigner des scénarios de test avec Selenium.<br/>
+                    - Analyse des anomalies, qualification, reporting</blockquote>
+            </dd>
+        </dl>
+
     </article>
+    <hr/>
+    <article>
+        <h1>Langues</h1>
+        <dl class="skills">
+            <dt>
+                Arabe
+            </dt>
+            <dd>
+                Courant
+            </dd>
+            <dt>
+                Français
+            </dt>
+            <dd>
+                Professionnelle
+            </dd>
+            <dt>
+                Anglais
+            </dt>
+            <dd>
+                Professionnelle
+            </dd>
+        </dl>
+    </article>
+    <hr/>
+    <article>
+        <h1>Hobbies</h1>
+        <section class="loisirs">
+            <span>
+                Natation
+            </span>
+            <span>
+                Musique
+            </span>
+            <span>
+                Voyager
+            </span>
+        </section>
+    </article>
+<hr/>
+    <footer>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="https://github.com/oulghaad" class="fa fa-github"></a>
+        <a href="#" class="fa fa-google"></a>
+
+    </footer>
 </div>
-<footer>
-    <a href="https://www.facebook.com/adil.hard"> Facebook</a>
-    <a href="https://github.com/oulghaad">Github</a>
-</footer>
 </body>
 </html>
