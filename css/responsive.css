@@ -1,0 +1,20 @@
+@media only screen and (max-width: 740px){
+    #wrapper{ width: 100%;
+              float: none;
+    }
+
+    p,blockquote,dd{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+
+    img{float: none; width: 100%}
+
+    h1,h2,dt{
+        text-align: center;
+        float: none;
+    }
+
+}
+

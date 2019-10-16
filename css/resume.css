@@ -13,16 +13,27 @@ html{
     max-width: 900px;
     min-width: 320px;
     background: #e1fae7;
-    margin: auto;
+    margin:-20px 15% 10px 15%;
     border: 3px solid #09ccd0;
+    border-top: none;
     padding: 10px;
-}
 
-header div img{
+}
+header{
+    max-width: 900px;
+    min-width: 320px;
+    background: #e1fae7;
+    border: 3px solid #09ccd0;
+    border-bottom: none;
+    margin: 10px 15% 0px 15%;
+    padding: 10px;
+
+}
+img{
     width : 200px;
     height : 150px;
-    padding-top: 20px;
-    padding-right: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
     float: right;
     border: 1px #ccc;
     border-radius: 3px;
@@ -68,6 +79,7 @@ p{
     line-height: normal;
     margin-left: 10%;
 }
+
 hr
 {
     width: 80%;
