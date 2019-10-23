@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="//use.edgefonts.net/lancelot.js"></script>
     <script src="//use.edgefonts.net/smythe.js"></script>
+    <script type="text/javascript" src="javaScript.js"></script>
+
 
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><
@@ -49,19 +51,40 @@
         </div>
     </article>
     <article>
-        <h1>Competences</h1>
-        <dl class="skills">
-            <dt class="gra">
+        <h1>Competences
+            <button onclick="toggle('set','com')">+</button>
+        </h1>
+        <dl class="set" id="com" style="display: none">
+            <dt class="smythe">
                 DEVELOPMENT
             </dt>
-            <dd>
-                <p>
-                    - Java / JEE development.<br/>
-                    -Mobile applications development (Android).<br/>
-                    -Web development(HTML5 , PHP, Bootstrap, Angular).
-                </p>
+            <dd><div>
+                <div onmouseover="show('myPopup1')" onmouseout="hide('myPopup1')" class="line"> - Java / JEE
+                    development.
+                    <span class="tooltip" id="myPopup1">Java entreprise edition</span></div>
+                <div onmouseover="show('myPopup2')" onmouseout="hide('myPopup2')">
+                    <div>-Mobile applications development (<span class="line">Android</span><span class="tooltip"
+                                                                                                  id="myPopup2">Développement des applications mobiles</span>).
+                    </div>
+                </div>
+                <div>-Web development(
+                    <span class="line" onmouseover="show('myPopup3')"
+                                                 onmouseout="hide('myPopup3')">HTML5,</span>
+                    <span class="tooltip" id="myPopup3">HyperText Markup Language 5</span>
+                </div>
+                    <div onmouseover="show('myPopup4')" onmouseout="hide('myPopup4')" class="line">PHP,
+                        <span class="tooltip" id="myPopup4">Hypertext Preprocessor</span>
+                    </div>
+                    <div class="line" onmouseover="show('myPopup5')" onmouseout="hide('myPopup5')" > Bootstrap,
+                        <span class="tooltip" id="myPopup5">kit CSS créé par les développeurs de Twitter</span>
+                    </div>
+                <div onmouseover="show('myPopup6')" onmouseout="hide('myPopup6')"class="line">
+                        Angular.
+                        <span class="tooltip" id="myPopup6">Platforme de création des applications mobile et bureau</span>
+                </div>
+            </div>
             </dd>
-            <dt class="gra">
+            <dt class="smythe">
                 Test
             </dt>
             <dd>
@@ -71,7 +94,7 @@
                     - Reporting: generate, Analyze and deliver reports <br/>of the test campaigns.
                 </p>
             </dd>
-            <dt class="gra">
+            <dt class="smythe">
                 Autres
             </dt>
             <dd>
@@ -86,8 +109,10 @@
     </article>
     <hr/>
     <article>
-        <h1>Formation</h1>
-        <dl class="skills">
+        <h1>Formation
+            <button onclick="toggle('set','for')">+</button>
+        </h1>
+        <dl class="set" id="for" style="display: none">
             <dt class="smythe">
                 2019-Ongoing
             </dt>
@@ -123,8 +148,10 @@
     </article>
     <hr/>
     <article>
-        <h1>Experience professionnelle</h1>
-        <dl class="skills">
+        <h1>Experience professionnelle
+            <button onclick="toggle('set','exp')">+</button>
+        </h1>
+        <dl class="set" id="exp" style="display: none">
             <dt class="smythe">
                 Février 2015 - Juillet 2015 <sub>(PFE_Licence)</sub>
             </dt>

@@ -29,6 +29,9 @@ header{
     padding: 10px;
 
 }
+button{
+    background: none;
+}
 img{
     width : 200px;
     height : 150px;
@@ -122,4 +125,34 @@ h1{
 .fa-github{
     background: #b51e00;
     color: white;
+}
+.line {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.tooltip{
+    position:absolute;
+    margin:5px;
+    width:160px;
+    border:1px solid black;
+    color: #fafafa;
+    background: #090909;
+    text-align: center;
+    border-radius: 6px;
+    display:none;
+    padding: 8px 0;
+}
+
+dl {
+    animation: adjustText 1s alternate;
+}
+@keyframes adjustText {
+    from {
+        font-size: 0px;
+    }
+    to {
+        font-size: 10px;
+    }
 }
